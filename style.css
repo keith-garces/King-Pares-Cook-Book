@@ -1,0 +1,162 @@
+html,
+body {
+    background-color: #f8eee7;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+#navbar {
+    height: 40px;
+    background-color: #011562;
+    /* navbar color */
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+    color: #fff;
+    /* navbar text color */
+    font-weight: 800;
+    text-decoration: none;
+    /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+    color: #a49cba;
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: #011562;
+}
+
+a:hover {
+    color: #89B9BA;
+}
+
+/* INDEX STYLES */
+
+.main-header {
+    text-align: center;
+    background-color: #EFB4A6;
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 50px 100px 100px 100px;
+    width: 50%;
+    background-image: url("https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-h1,
+.main-p {
+    text-shadow: 2px 2px rgb(0, 0, 0, 1);
+    color: #fff;
+}
+
+.main-section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px 5px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+/* 
+pastel palette
+#f8eee7 tan
+#EEA09E pink
+#395E88 navy blue
+#837F95 purple
+#89B9BA green
+*/
+
+
+/*
+#EFB4A6 pink
+#011562 navy blue
+#837F95 purple
+#42ADB9 green
+*/
+
+/* RECIPE STYLE */
+
+.recipe-header {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.hero-thanksgiving-img {
+    background-image: url("https://i0.wp.com/www.streetsmartkitchen.com/wp-content/uploads/Authentic-Filipino-Pork-Adobo-3.jpg?fit=800%2C1204&ssl=1");
+}
+.hero-newyears-img {
+    background-image: url("http://images.summitmedia-digital.com/yummyph/images/2020/03/10/KNRR_0069.png");
+}
+
+.hero-christmas-img {
+    background-image: url("https://www.lutongbahayrecipe.com/wp-content/uploads/2019/02/lutong-bahay-recipe-Igado-1-1200x903.png");
+}
+
+.recipe-h1 {
+    padding: 50px;
+    margin: 0;
+    color: #f8eee7;
+}
+
+.recipe-card {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.description {
+    display: block;
+}
+
+.directions {
+    width: 50%;
+    margin: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+ul,
+ol {
+    text-align: left;
+}
